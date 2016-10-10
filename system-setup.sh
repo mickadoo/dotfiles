@@ -19,10 +19,13 @@ git \
 gimp \
 terminator \
 default-jdk \
-xclip
+xclip \
+ruby-dev
+
+sudo gem install jekyll
 
 sudo groupadd docker
-sudo usermod -aG docker $USER
+sudo usermod -aG docker $(whoami)
 
 wget "https://download.jetbrains.com/webide/PhpStorm-2016.2.1.tar.gz"
 tar xf PhpStorm-2016.2.1.tar.gz
