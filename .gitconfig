@@ -1,1 +1,7 @@
-/home/michael/.gitconfig
+[core]
+	excludesfile = /home/michael/.gitignore_global
+[user]
+	email = michaeldevery@gmail.com
+	name = Michael Devery
+[push]
+	default = simple
