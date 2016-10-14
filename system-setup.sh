@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 sudo add-apt-repository -y \
 ppa:hda-me/keepassx2-yubico \
 ppa:otto-kesselgulasch/gimp
